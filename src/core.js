@@ -75,7 +75,7 @@ jQuery.fn = jQuery.prototype = {
 		if ( selector === "body" && !context ) {
 			this.context = document;
 			this[0] = document.body;
-			this.selector = "body";
+			this.selector = selector;
 			this.length = 1;
 			return this;
 		}
